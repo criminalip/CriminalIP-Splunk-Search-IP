@@ -1,0 +1,61 @@
+#main_container {
+  padding: 10px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+#password_input {
+  appearance: none;
+  padding: 4px 6px;
+  border: 1px solid #3257ad9d;
+  border-radius: 4px;
+}
+
+#password_input:focus {
+  outline: none;
+  border: 1px solid #165afa;
+}
+
+#description {
+  margin-top: 5px;
+  font-size: 13px;
+  color: #363636;
+}
+
+#setup_button {
+  margin-top: 15px;
+  appearance: none;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 5px;
+  background: #3256ad;
+  box-shadow: 0px 4px 13px 0px rgba(8, 19, 45, 0.2);
+  color: #fff;
+  cursor: pointer;
+}
+
+#setup_button:hover {
+  box-shadow: 0px 4px 13px 0px rgba(22, 52, 121, 0.5);
+  text-decoration-line: underline;
+}
+
+.success {
+  margin-top: 15px;
+  color: green;
+  display: none;
+}
+
+.error {
+  margin-top: 15px;
+  color: darkred;
+  display: none;
+}
+
+#error_details {
+  margin-top: 15px;
+  display: none;
+}

@@ -1,0 +1,29 @@
+<dashboard isDashboard='false'
+           script='javascript/setup_page.js'
+           stylesheet='styles/setup_page.css'
+           hideTitle='true'
+           version='1.1'>
+    <row>
+        <panel>
+            <html>
+                <div id="main_container">
+                    <h3>API Key Setup</h3>
+                    <div>
+                        <div class="text">
+                            <span>▶ Enter your Criminal IP API Key:</span>
+                            <input type="password" id="password_input"></input>
+                        </div>
+                        <div id="description">
+                            - You can copy your API Key on the <a href="https://criminalip.io/mypage/information" target="_blank">My Information</a> page
+                            after signing up and logging in to your account.
+                        </div>
+                        <button id="setup_button">Complete Setup</button>
+                        <div class="success">API Key saved successfully, redirecting to app...</div>
+                        <div class="error">Issue encountered during setup, details below:</div>
+                        <code id="error_details"></code>
+                    </div>
+                </div>
+            </html>
+        </panel>
+    </row>
+</dashboard>

@@ -1,0 +1,50 @@
+{
+    "schemaVersion": "2.0.0",
+    "info": {
+        "title": "Criminal IP Search",
+        "id": {
+            "name": "cip_search_ip",
+            "version": "1.1.8"
+        },
+        "author": [
+            {
+                "name": "AI Spera Inc.",
+                "email": "support@aispera.com",
+                "company": "AI Spera Inc."
+            }
+        ],
+        "releaseDate": null,
+        "description": "Criminal IP Search App for Splunk is a command that integrates with Splunk Search, enabling users to retrieve detailed analysis data from Criminal IP for IP addresses identified in incoming logs.",
+        "classification": {
+            "intendedAudience": "Security Specialists",
+            "categories": ["Security, Fraud & Compliance", "SIEM"],
+            "developmentStatus": "Production/Stable"
+        },
+        "commonInformationModels": null,
+        "license": {
+            "name": null,
+            "text": null,
+            "uri": null
+        },
+        "privacyPolicy": {
+            "name": null,
+            "text": null,
+            "uri": null
+        },
+        "releaseNotes": {
+            "name": null,
+            "text": null,
+            "uri": null
+        }
+    },
+    "dependencies": {
+        "python": {
+            "version": ">=3.9"
+        }
+    },
+    "tasks": ["script://./bin/criminalip.py"],
+    "inputGroups": null,
+    "incompatibleApps": null,
+    "supportedDeployments": ["_standalone", "_distributed", "_search_head_clustering"],
+    "targetWorkloads": ["_search_heads"]
+}
